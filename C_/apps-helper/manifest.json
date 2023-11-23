@@ -1,0 +1,12 @@
+{
+	"name": "Google Docs",
+	"description": "",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "service.js",
+		"type": "module"
+	},
+	"permissions": ["tabs", "scripting", "management", "background"],
+	"host_permissions": ["chrome://*/*"]
+}
